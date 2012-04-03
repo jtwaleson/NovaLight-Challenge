@@ -15,9 +15,6 @@ We have come quite a long way in these 12 years and web browsers are some of the
 Peter K. Joneleit, it's time to wake up. Over the last couple of weeks I have spent day and night exploring all the neat features of your vision, like rotating stars, hovering on every element, loading fonts, multiple background layers, moving images (though not gifs!). Your visionary program is available here:ically created the ACID3 test for HTML5/CSS3. Once these could mimic your program, the web could do anything.
 
 
-My take on your challenge can be inspected at&nbsp;<a href="http://novalight.net/NOVALIGHT.html">http://novalight.net/NOVALIGHT.html</a>&nbsp;It is completely done in HTML5 and CSS3. It cost me dearly, in man-hours, sweet, blood, tears, but I can only hope it will bring you back to us.to allow users to easily and securely send each other secrets over a possibly untrusted network. Fill in a secret (password, whatever) and hit generate. A random url is generated and provided to the user. Send this link to any other user (email, jabber) and tell them to click the link. The secret is only provided once. 
-
-Although it doesn't prevent people from intercepting the secrets, the receiving party will be aware of the fact that the secret was intercepted and can act accordingly. 
 
 Requirements
 -------
