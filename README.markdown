@@ -30,4 +30,4 @@ Requirements
 Todo
 -------
  - Everything except the main page.
- - Once you finish some bits and pieces, send a pull request and I'll update it on my site.
+ - Once you finish some bits and pieces, send a pull request and I'll update this repo and push it to <a href='http://waleson.com/NovaLight-Challenge/'>my site</a>
