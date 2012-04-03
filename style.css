@@ -78,21 +78,37 @@ body {
 	margin-bottom: 33px;
 }
 .nr1 {color: #cc0000;}
+.nr1:hover {color: #ff0000;}
 .nr2 {color: #cc6600;}
+.nr2:hover {color: #ff9900;}
 .nr3 {color: #cc9900;}
+.nr3:hover {color: #ffcc00;}
 .nr4 {color: #cccc00;}
+.nr4:hover {color: #ffff00;}
 .nr5 {color: #009933;}
+.nr5:hover {color: #00cc66;}
 .nr6 {color: #0099cc;}
+.nr6:hover {color: #00ccff;}
 .nr7 {color: #0033cc;}
+.nr7:hover {color: #0066ff;}
 .nr8 {color: #990099;}
+.nr8:hover {color: #cc00cc;}
 .nr1 .pill {background-color: #cc0000;}
+.nr1:hover .pill {background-color: #ff0000;}
 .nr2 .pill {background-color: #cc6600;}
+.nr2:hover .pill {background-color: #ff9900;}
 .nr3 .pill {background-color: #cc9900;}
+.nr3:hover .pill {background-color: #ffcc00;}
 .nr4 .pill {background-color: #cccc00;}
+.nr4:hover .pill {background-color: #ffff00;}
 .nr5 .pill {background-color: #009933;}
+.nr5:hover .pill {background-color: #00cc66;}
 .nr6 .pill {background-color: #0099cc;}
+.nr6:hover .pill {background-color: #00ccff;}
 .nr7 .pill {background-color: #0033cc;}
+.nr7:hover .pill {background-color: #0066ff;}
 .nr8 .pill {background-color: #990099;}
+.nr8:hover .pill {background-color: #cc00cc;}
 
 #link_to_original {
 	background-color: #fff;
