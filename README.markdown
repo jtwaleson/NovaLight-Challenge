@@ -1,7 +1,7 @@
 # The NovaLight Challenge
 
 
-&tldr;
+tl;dr
 -------
 I found <a href="http://novalight.net/NOVALIGHT.html">this website from 2000 in flash</a> and wanted to see if we can make an exact copy with modern techniques. You can find the current state of affairs <a href='http://waleson.com/NovaLight-Challenge/'>here</a>, for now.
 
