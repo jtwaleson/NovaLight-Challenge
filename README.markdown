@@ -1,6 +1,13 @@
 # The NovaLight Challenge
 
 
+&tldr;
+-------
+I found <a href="http://novalight.net/NOVALIGHT.html">this website from 2000 in flash</a> and wanted to see if we can make an exact copy with modern techniques. You can find the current state of affairs <a href='http://waleson.com/NovaLight-Challenge/'>here</a>, for now.
+
+
+History
+-------
 
 We stand on the shoulders of giants. One of these giants is Peter K. Joneleit. You may not have heard of him, but then again, no one had heard of Chuck Norris until five years ago.
 
