@@ -12,8 +12,14 @@ So, what could Peter do to prevent him from going insane? His solution is so ins
 
 We have come quite a long way in these 12 years and web browsers are some of the leanest and meanest programs ever. CSS3 and HTML5 are certainly steps in the right direction, although there is still some work to be done.
 
-Peter K. Joneleit, it's time to wake up. Over the last couple of weeks I have spent day and night exploring all the neat features of your vision, like rotating stars, hovering on every element, loading fonts, multiple background layers, moving images (though not gifs!). Your visionary program is available here:ically created the ACID3 test for HTML5/CSS3. Once these could mimic your program, the web could do anything.
+Peter K. Joneleit, it's time to wake up. Over the last couple of weeks I have spent day and night exploring all the neat features of your vision, like rotating stars, hovering on every element, loading fonts, multiple background layers, moving images (though not gifs!). You basically created the ACID3 test for HTML5/CSS3. Once these could mimic your program, the web could do anything!
 
+
+What is the meaning of this
+-------
+It's time to say: Challenge Accepted!
+
+We'll create an exact copy of the original NovaLight program in this repository in pure HTML5 and CSS3. We might need some Javascript for some actions.
 
 
 Requirements
@@ -23,4 +29,5 @@ Requirements
 
 Todo
 -------
- - Everything
+ - Everything except the main page.
+ - Once you finish some bits and pieces, send a pull request and I'll update it on my site.
