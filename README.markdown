@@ -46,13 +46,13 @@ Todo
  - The static stars on the background
  - The moving stars background
  - sub-pages
-   - 1
-   - 2
-   - 3
-   - 4
-   - 5
-   - 6
-   - 7
-   - 8
+   - 1 not tooo difficult
+   - 2 a challenge
+   - 3 more of a challenge, javascript needed
+   - 4 could be easy, neat solution == expensive
+   - 5 easiest I guess
+   - 6 ok, except fro the non-synced progress bar thingy on top
+   - 7 difficult
+   - 8 aaargh
 
  - Once you finish some bits and pieces, send a pull request and I'll update this repo and push it to <a href='http://waleson.com/NovaLight-Challenge/'>my site</a>
