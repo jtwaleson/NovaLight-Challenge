@@ -22,18 +22,14 @@
 					<li class='pill' style='background-color: #beb2d3; color: #666699'>LINKS
 				</ul>
 			</div>
-			<div id='overview'>
-				<ul>
-					<li class='nr1'><div class='pill'></div>PERSONAL PROFILE</li>
-					<li class='nr2'><div class='pill'></div>Enterprise / IT Strategy</li>
-					<li class='nr3'><div class='pill'></div>Marketing Strategy / Promotion</li>
-					<li class='nr4'><div class='pill'></div>Program / Project Management</li>
-					<li class='nr5'><div class='pill'></div>Mergers and Acquisitions</li>
-					<li class='nr6'><div class='pill'></div>Enterprise Architectures</li>
-					<li class='nr7'><div class='pill'></div>Enterprise Performance Metrics</li>
-					<li class='nr8'><div class='pill'></div>IT Management</li>
-				</ul>
-			</div>
+			<?
+			if (!isset($_GET['page']))
+				include 'pages/overview.html';
+			else if (is_numeric($_GET['page']))
+				include 'pages/'.$_GET['page'].'.html';
+			else
+				echo "Unknown page";
+			?>
 		</div>
 	</body>
 </html>
