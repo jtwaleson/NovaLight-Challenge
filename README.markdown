@@ -36,5 +36,23 @@ Requirements
 
 Todo
 -------
- - Everything except the main page.
+ - The awesome introduction
+ - Get the music from the swf file
+ - Embed and autoplay the music
+ - Add Peter's picture to the overview image 
+ - Shining, rotating star in the logo
+ - Make font of NOVA<i>LIGHT</i> in header broader
+ - Refactor source so each page has its own header links
+ - The static stars on the background
+ - The moving stars background
+ - sub-pages
+   - 1
+   - 2
+   - 3
+   - 4
+   - 5
+   - 6
+   - 7
+   - 8
+
  - Once you finish some bits and pieces, send a pull request and I'll update this repo and push it to <a href='http://waleson.com/NovaLight-Challenge/'>my site</a>

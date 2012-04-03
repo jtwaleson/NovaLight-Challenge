@@ -112,6 +112,8 @@ body {
 .nr8:hover .pill {background-color: #cc00cc;}
 
 #link_to_original {
-	background-color: #fff;
 	text-align: center;
+}
+#link_to_original a {
+	color: #fff;
 }
