@@ -6,9 +6,6 @@
 
 
 	<body>
-		<div id='link_to_original'>
-			<a href='the_goal/'>The Original NovaLight Test</a>
-		</div>
 		<div id='wrapper'>
 			<div id='banner'>
 				<div id='logo'>
@@ -30,6 +27,9 @@
 			else
 				echo "Unknown page";
 			?>
+		</div>
+		<div id='link_to_original'>
+			<a href='the_goal/'>The Original NovaLight Test</a>
 		</div>
 	</body>
 </html>
