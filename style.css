@@ -194,3 +194,24 @@ body {
 	color: #666699;
 	text-decoration: none;
 }
+#bannerlink1:hover {
+	background-color: #ff0000;
+}
+#bannerlink1:hover a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#bannerlink2:hover {
+	background-color: #9999cc;
+}
+#bannerlink2:hover a {
+	color: #ccccff;
+	text-decoration: none;
+}
+#bannerlink3:hover {
+	background-color: #ebeaff; 
+}
+#bannerlink3:hover a {
+	color: #666699;
+	text-decoration: none;
+}
