@@ -7,6 +7,10 @@
 		top: 100px;
 		border: 5px solid white;
 		border-radius: 200px;
+		-moz-animation-duration: 2s;
+		-moz-animation-iteration-count: 1;
+		-moz-animation-timing-function: linear;
+		-moz-animation-fill-mode: forwards;  
 		-webkit-animation-duration: 2s;
 		-webkit-animation-iteration-count: 1;
 		-webkit-animation-timing-function: linear;
@@ -18,6 +22,15 @@
 		left: 100px;
 		-webkit-animation-name: movingToRight;
 	}
+	@-moz-keyframes movingToRight {
+		from {
+left: 100px;
+		}
+		to {
+left: 250px;
+		}
+	}
+	
 	@-webkit-keyframes movingToRight {
 		from {
 left: 100px;
@@ -30,7 +43,16 @@ left: 250px;
 	#circle_right {
 		border-color: rgba(120, 0, 206, 1.0);
 		background-color: rgba(120, 0, 206, 0.5);
+		-moz-animation-name: movingToLeft;
 		-webkit-animation-name: movingToLeft;
+	}
+	@-moz-keyframes movingToLeft {
+		from {
+right: 100px;
+		}
+		to {
+right: 250px;
+		}
 	}
 	@-webkit-keyframes movingToLeft {
 		from {
