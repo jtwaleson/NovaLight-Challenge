@@ -16,9 +16,9 @@
 				</div>
 				
 				<ul id='upper_menu'>
-					<li class='pill' style='background-color: #990000; color: #cccccc;'>e~mail
-					<li class='pill' style='background-color: #666699; color: #9999cc;'>RESUME
-					<li class='pill' style='background-color: #beb2d3; color: #666699'>LINKS
+					<li class='pill' id='bannerlink1'><a href='mailto:peter.joneleit@novalight.net'>e~mail</a>
+					<li class='pill' id='bannerlink2'><a href='#'>RESUME</a>
+					<li class='pill' id='bannerlink3'><a href='NOVALIGHT LINKS.html'>LINKS</a>
 				</ul>
 			</div>
 			<?

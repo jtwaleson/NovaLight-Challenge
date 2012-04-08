@@ -170,3 +170,24 @@ body {
 #link_to_original a {
 	color: #fff;
 }
+#bannerlink1 {
+	background-color: #990000;
+}
+#bannerlink1 a {
+	color: #cccccc;
+	text-decoration: none;
+}
+#bannerlink2 {
+	background-color: #666699;
+}
+#bannerlink2 a {
+	color: #9999cc;
+	text-decoration: none;
+}
+#bannerlink3 {
+	background-color: #beb2d3; 
+}
+#bannerlink3 a {
+	color: #666699;
+	text-decoration: none;
+}
