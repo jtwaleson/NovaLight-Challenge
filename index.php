@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>NOVALIGHT: The Ultimate Challenge</title>
@@ -6,6 +7,7 @@
 
 
 	<body>
+		<div id='stars'></div>
 		<div id='wrapper'>
 			<div id='banner'>
 				<div id='logo'>

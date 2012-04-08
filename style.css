@@ -5,9 +5,54 @@ body {
 	margin: 0;
 	padding: 0;
 }
+#stars {
+}
+#stars{
+	background-image: url(stars.jpg);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow:hidden;
+	left:0;
+	height: 100%;
+	z-index: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	-moz-animation-name: starsLarge;
+	-moz-animation-duration: 5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-name: starsLarge;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-moz-keyframes starsLarge {
+	from {
+		-moz-transform: scale(0.01);
+		opacity: 1;
+	}
+	to {
+		-moz-transform: scale(10);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes starsLarge {
+	from {
+		-webkit-transform: scale(0.01);
+		opacity: 1;
+	}
+	to {
+		-webkit-transform: scale(10);
+		opacity: 1;
+	}
+}
 #wrapper {
+	position: relative;
+	z-index: 1;
 	width: 968px;
 	margin: 0 auto;
+	background: url(stars2.png) no-repeat center center;
 }
 #banner {
 	height: 100px;
