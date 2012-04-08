@@ -1,3 +1,52 @@
-<div>
-Not implemented yet!
+<style type='text/css'>
+	.circle {
+		width: 400px;
+		height: 400px;
+		opacity: 0.5;
+		position: absolute;
+		top: 100px;
+		border: 5px solid white;
+		border-radius: 200px;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-fill-mode: forwards;  
+	}
+	#circle_left {
+		border-color: rgba(255, 204, 0, 1.0);
+		background-color: rgba(255, 204, 0, 0.5);
+		left: 100px;
+		-webkit-animation-name: movingToRight;
+	}
+	@-webkit-keyframes movingToRight {
+		from {
+left: 100px;
+		}
+		to {
+left: 250px;
+		}
+	}
+	
+	#circle_right {
+		border-color: rgba(120, 0, 206, 1.0);
+		background-color: rgba(120, 0, 206, 0.5);
+		-webkit-animation-name: movingToLeft;
+	}
+	@-webkit-keyframes movingToLeft {
+		from {
+right: 100px;
+		}
+		to {
+right: 250px;
+		}
+	}
+	#innerwrapper {
+position: relative;
+	}
+</style>
+<div id='innerwrapper'>
+	<div class='circle' id='circle_left'>
+	</div>
+	<div class='circle' id='circle_right'>
+	</div>
 </div>
