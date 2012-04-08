@@ -1,3 +1,6 @@
+html, body {
+	height: 100%;
+}
 body {
 	background-color: black;
 	font-family: arial;
