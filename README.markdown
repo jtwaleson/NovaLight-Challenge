@@ -34,21 +34,25 @@ Requirements
  - PHP
 
 
+Done
+-------
+ - Add Peter's picture to the overview image 
+ - Made a start at 3, completely css
+ - Refactor source so each page has its own header links
+ - The static stars on the background
+ - The moving stars background
+ - Make font of NOVA<i>LIGHT</i> in header broader
+
 Todo
 -------
  - The awesome introduction
  - Get the music from the swf file
  - Embed and autoplay the music
- - Add Peter's picture to the overview image 
  - Shining, rotating star in the logo
- - Make font of NOVA<i>LIGHT</i> in header broader
- - Refactor source so each page has its own header links
- - The static stars on the background
- - The moving stars background
  - sub-pages
    - 1 not tooo difficult
    - 2 a challenge
-   - 3 more of a challenge, javascript needed
+   - 3 Easier than I thought, neat 
    - 4 could be easy, neat solution == expensive
    - 5 easiest I guess
    - 6 ok, except fro the non-synced progress bar thingy on top
