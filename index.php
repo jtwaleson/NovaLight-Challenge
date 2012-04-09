@@ -32,14 +32,33 @@
 	left:50%;
 	height: 5px;
 	z-index: 0;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
 <? foreach($stars as $i => $xy): ?>
 	#star<?=$i;?> {
+		-moz-animation-name: stars_animation_<?=$i;?>;
+		-moz-animation-delay: <?= rand(0, 2000);?>ms;
 		-webkit-animation-name: stars_animation_<?=$i;?>;
 		-webkit-animation-delay: <?= rand(0, 2000);?>ms;
+	}
+	@-moz-keyframes stars_animation_<?=$i;?> {
+		from {
+			-moz-transform: scale(0.5);
+			left: 50%;
+			top: 50%;
+			opacity: 0.2;
+		}
+		to {
+			-moz-transform: scale(1);
+			left: <?=$xy[0]?>%;
+			top: <?=$xy[1]?>%;
+			opacity: 1;
+		}
 	}
 	@-webkit-keyframes stars_animation_<?=$i;?> {
 		from {
@@ -81,9 +100,9 @@
 			else
 				echo "Unknown page";
 			?>
-		</div>
-		<div id='link_to_original'>
-			<a href='the_goal/'>The Original NovaLight Test</a>
+			<div id='link_to_original'>
+				<a href='the_goal/'>The Original NovaLight Test</a>
+			</div>
 		</div>
 	</body>
 </html>
