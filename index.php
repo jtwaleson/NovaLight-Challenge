@@ -96,7 +96,7 @@
 			if (!isset($_GET['page']))
 				include 'pages/overview.html';
 			else if (is_numeric($_GET['page']))
-				include 'pages/'.$_GET['page'].'.html';
+				include 'pages/'.$_GET['page'].'.php';
 			else
 				echo "Unknown page";
 			?>

@@ -1,3 +1,8 @@
+<?
+	$faces = array();
+	for ($i = 0; $i < 12; $i++)
+		$faces[] = array(rand(0,360), 100+$i*30);
+?>
 <style type='text/css'>
 	.circle {
 		width: 400px;
@@ -47,6 +52,17 @@ left: 250px;
 		-moz-animation-name: movingToLeft;
 		-webkit-animation-name: movingToLeft;
 	}
+	.face {
+position: absolute;
+background-color: #fff;
+border-radius: 40px;
+width: 40px;
+height: 40px;
+-webkit-animation-duration: 2s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: linear;
+-webkit-animation-fill-mode: forwards;  
+	}
 	@-moz-keyframes movingToLeft {
 		from {
 right: 100px;
@@ -63,6 +79,24 @@ right: 100px;
 right: 250px;
 		}
 	}
+	<? foreach ($faces as $i => $pos): ?>
+	#face<?=$i;?> {
+		-webkit-animation-name: face_<?=$i;?>;
+	}
+	@-webkit-keyframes face_<?=$i;?> {
+		from {
+-webkit-transform: scale(1);
+left: <?=rand(100,500);?>px;
+top: <?=rand(100,500);?>px;
+		}
+		to {
+-webkit-transform: scale(0.4);
+left: 484px ;
+top: <?=$pos[1];?>px;
+		}
+	}
+	
+	<? endforeach;?>
 	#innerwrapper {
 position: relative;
 	}
@@ -70,6 +104,10 @@ position: relative;
 <div id='innerwrapper'>
 	<div class='circle' id='circle_left'>
 	</div>
+	<? foreach ($faces as $i => $pos): ?>
+	<div class='face' id='face<?=$i;?>'></div>
+	<? endforeach; ?>
 	<div class='circle' id='circle_right'>
 	</div>
+
 </div>
