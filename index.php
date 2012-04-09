@@ -69,7 +69,7 @@
 				
 				<ul id='upper_menu'>
 					<li class='pill' id='bannerlink1'><a href='mailto:peter.joneleit@novalight.net'>e~mail</a>
-					<li class='pill' id='bannerlink2'><a href='#'>RESUME</a>
+					<li class='pill' id='bannerlink2'><a href='#'>R&Eacute;SUM&Eacute;</a>
 					<li class='pill' id='bannerlink3'><a href='NOVALIGHT LINKS.html'>LINKS</a>
 				</ul>
 			</div>

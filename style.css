@@ -15,7 +15,7 @@ body {
 	margin: 0 auto;
 	min-height: 100%;
 	overflow: auto;
-	background: url(stars2.png) no-repeat center center;
+	background: url(stars.png) no-repeat center center;
 }
 #banner {
 	height: 100px;
