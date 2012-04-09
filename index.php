@@ -7,7 +7,59 @@
 
 
 	<body>
-		<div id='stars'></div>
+<?
+	$stars_per_side = 3;
+	$stars = array();
+	for($i = 0; $i < $stars_per_side; $i++)
+		$stars[] = array(100, rand(0, 100));
+	for($i = 0; $i < $stars_per_side; $i++)
+		$stars[] = array(0, rand(0, 100));
+	for($i = 0; $i < $stars_per_side; $i++)
+		$stars[] = array(rand(0, 100), 100);
+	for($i = 0; $i < $stars_per_side; $i++)
+		$stars[] = array(rand(0, 100), 0);
+
+?>
+<style type='text/css'>
+.stars{
+	position: fixed;
+	top: 50%;
+	width: 5px;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow:hidden;
+	opacity: 0;
+	left:50%;
+	height: 5px;
+	z-index: 0;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+<? foreach($stars as $i => $xy): ?>
+	#star<?=$i;?> {
+		-webkit-animation-name: stars_animation_<?=$i;?>;
+		-webkit-animation-delay: <?= rand(0, 2000);?>ms;
+	}
+	@-webkit-keyframes stars_animation_<?=$i;?> {
+		from {
+			-webkit-transform: scale(0.5);
+			left: 50%;
+			top: 50%;
+			opacity: 0.2;
+		}
+		to {
+			-webkit-transform: scale(1);
+			left: <?=$xy[0]?>%;
+			top: <?=$xy[1]?>%;
+			opacity: 1;
+		}
+	}
+<? endforeach;?>
+</style>
+<? foreach($stars as $i => $xy): ?>
+		<div class='stars' id='star<?=$i?>'></div>
+<? endforeach;?>
 		<div id='wrapper'>
 			<div id='banner'>
 				<div id='logo'>
