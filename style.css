@@ -31,6 +31,10 @@ body {
 	font-weight: 900;
 	color:#7f80ff;
 }
+#logo_link {
+-webkit-transform: scale(1.5,1);
+margin-left: 80px;
+}
 #logo a span {
 	color: #b1b1ff;
 	font-style: italic;

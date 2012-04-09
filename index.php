@@ -82,7 +82,7 @@
 		<div id='wrapper'>
 			<div id='banner'>
 				<div id='logo'>
-					<div><a href='?'>NOVA<span>LIGHT</span></a></div>
+					<div id='logo_link'><a href='?'>NOVA<span>LIGHT</span></a></div>
 					<div id='under'>Business solutions through information technology</div>
 				</div>
 				
